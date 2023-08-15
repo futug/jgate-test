@@ -1,0 +1,87 @@
+.cardItem {
+    padding: 40px;
+    border: 1px solid #e7e6eb;
+    box-sizing: border-box;
+    background: #ffffff;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: fit-content;
+
+    &ImgWrapper {
+        width: fit-content;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    &Img {
+        width: 256px;
+        height: 256px;
+        object-fit: cover;
+    }
+
+    &Price {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: var(--dark-color);
+        margin: 24px 0 0 0;
+    }
+
+    &Title {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: var(--dark-color);
+        margin: 16px 0 0 0;
+    }
+
+    &Desc {
+        max-width: 320px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--dark-color);
+        margin: 8px 0 0 0;
+    }
+
+    &Color {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #666666;
+        margin: 24px 0 0 0;
+    }
+
+    &ColorIcons {
+        margin: 16px 0 0 0;
+    }
+
+    &CartButton {
+        margin: 32px 0 0 0;
+    }
+
+    &BuyButton {
+        margin: 16px 0 0 0;
+    }
+
+    &ReadMoreLink {
+        display: inline-block;
+        margin: 32px 0 0 0;
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        color: #61a5fa;
+    }
+}
